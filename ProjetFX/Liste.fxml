@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" stylesheets="@page.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="TableauController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#b9add2" height="600.0" layoutX="-18.0" stroke="#b9add2" strokeType="INSIDE" width="220.0" />
+      <Button blendMode="HARD_LIGHT" layoutX="11.0" layoutY="196.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="167.0" text="Accueil" textAlignment="CENTER" textOverrun="CENTER_ELLIPSIS" />
+      <Button blendMode="HARD_LIGHT" layoutX="11.0" layoutY="274.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="167.0" text="Listes d'étudiants" />
+      <Button blendMode="HARD_LIGHT" layoutX="11.0" layoutY="346.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="167.0" text="Formulaire" textAlignment="CENTER" textOverrun="CENTER_ELLIPSIS" />
+      <Label layoutX="20.0" layoutY="35.0" text="Application " textFill="#45395e">
+         <font>
+            <Font name="System Bold" size="29.0" />
+         </font>
+      </Label>
+      <Label layoutX="8.0" layoutY="91.0" text="Gestions des étudiants" textFill="#45395e">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <Button layoutX="405.0" layoutY="432.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="167.0" styleClass="root" stylesheets="@Form.css" text="Modifier" textAlignment="CENTER" textOverrun="CENTER_ELLIPSIS" />
+      <Label layoutX="363.0" layoutY="75.0" text="Liste d'étudiants" textFill="#45395e">
+         <font>
+            <Font size="35.0" />
+         </font>
+      </Label>
+      <TableView fx:id="Tableau" layoutX="278.0" layoutY="209.0" prefHeight="200.0" prefWidth="422.0">
+         <columns>
+            <TableColumn fx:id="Nom" prefWidth="75.0" text="Nom" />
+            <TableColumn fx:id="Prenom" prefWidth="66.0" text="Prénom" />
+            <TableColumn fx:id="Annee" prefWidth="135.33331298828125" text="Année de naissance" />
+            <TableColumn fx:id="Parcours" prefWidth="70.66668701171875" text="Parcours" />
+            <TableColumn fx:id="Promo" prefWidth="70.66668701171875" text="Promotion" />
+         </columns>
+      </TableView>
+   </children>
+</AnchorPane>
