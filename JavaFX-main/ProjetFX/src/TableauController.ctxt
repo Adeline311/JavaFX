@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.target=TableauController
+comment1.params=edittedCell
+comment1.target=void\ modifNomEvent(javafx.scene.control.TableColumn.CellEditEvent)
+comment10.params=
+comment10.target=javafx.collections.ObservableList\ getEtu()
+comment2.params=edittedCell
+comment2.target=void\ modifPrenomEvent(javafx.scene.control.TableColumn.CellEditEvent)
+comment3.params=event
+comment3.target=void\ changeSceneToDetailedPersonView(javafx.event.ActionEvent)
+comment4.params=event
+comment4.target=void\ SwitchToMain(javafx.event.ActionEvent)
+comment5.params=event
+comment5.target=void\ SwitchToGestion(javafx.event.ActionEvent)
+comment6.params=event
+comment6.target=void\ SwitchToInfo(javafx.event.ActionEvent)
+comment7.params=url\ rb
+comment7.target=void\ initialize(java.net.URL,\ java.util.ResourceBundle)
+comment7.text=\r\n\ Initialise\ le\ tableau\r\n
+comment8.params=
+comment8.target=void\ ajouterEtudiant()
+comment9.params=
+comment9.target=void\ SuppEtudiant()
+numComments=11

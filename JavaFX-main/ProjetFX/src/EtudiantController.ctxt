@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=EtudiantController
+comment0.text=\r\n\ FXML\ Controller\ class\r\n\r\n\ @author\ jwright\r\n
+comment1.params=etudiant
+comment1.target=void\ initData(Etudiant)
+comment1.text=\r\n\ This\ method\ accepts\ a\ person\ to\ initialize\ the\ view\r\n\ @param\ person\ \r\n
+comment2.params=event
+comment2.target=void\ SwitchToPrincipal(javafx.event.ActionEvent)
+comment3.params=url\ rb
+comment3.target=void\ initialize(java.net.URL,\ java.util.ResourceBundle)
+numComments=4
