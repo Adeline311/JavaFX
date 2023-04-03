@@ -4,7 +4,9 @@ Dites au lecteur (qui ne sait rien du projet) ce qu'il a besoin de savoir.
 Au minimum, remplissez cette description :
 ------------------------------------------------------------------------
 
-TITRE DU PROJET :
+TITRE DU PROJET : Application qui permet de gérer 
+les groupes d'étudiants du master IDLS
+
 BUT POURSUIVI :
 VERSION ou DATE :
 COMMENT INVOQUER CE PROJET :
