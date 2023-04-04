@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.target=DocumentController
+comment1.params=event
+comment1.target=void\ Selection(javafx.scene.input.MouseEvent)
+comment10.params=event
+comment10.target=void\ SwitchToInfo(javafx.event.ActionEvent)
+comment2.params=
+comment2.target=void\ Clear()
+comment3.params=
+comment3.target=void\ Supprimer()
+comment4.params=
+comment4.target=void\ Modifier()
+comment5.params=
+comment5.target=void\ ajouterEtudiant()
+comment6.params=
+comment6.target=int\ getTestEtu()
+comment7.params=
+comment7.target=void\ UpdateTable()
+comment8.params=url\ rb
+comment8.target=void\ initialize(java.net.URL,\ java.util.ResourceBundle)
+comment9.params=event
+comment9.target=void\ SwitchToMain(javafx.event.ActionEvent)
+numComments=11

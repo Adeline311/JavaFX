@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=mysqlconnect
+comment1.params=
+comment1.target=java.sql.Connection\ ConnectDb()
+comment2.params=
+comment2.target=javafx.collections.ObservableList\ getEtu()
+numComments=3
